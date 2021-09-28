@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+}
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    margin: 50px;
+}
+ul ul {
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+}
+ul li:hover ul {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
