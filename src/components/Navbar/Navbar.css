@@ -34,8 +34,10 @@ ul li:hover ul {
     display: block;
 }
 
-nav {
+
+
+.containerNav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: burlywood;
 }
