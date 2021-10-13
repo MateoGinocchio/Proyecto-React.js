@@ -9,24 +9,24 @@ const Navbar = () => {
             <nav>
                 <ul>
                     <li>
-                        <a href="">Home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="">Sobre Nosotros</a>
+                        <a href="#">Sobre Nosotros</a>
                     </li>
                     <li>
-                        <a href="">Ojotas</a>
+                        <a href="#">Ojotas</a>
                         <ul>
                             <li>
-                                <a href="">Casamientos</a>
+                                <a href="#">Casamientos</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="">Clientes</a>
+                        <a href="#">Clientes</a>
                     </li>
                     <li>
-                        <a href="">Contacto</a>
+                        <a href="#">Contacto</a>
                     </li>
                 </ul>
             </nav>

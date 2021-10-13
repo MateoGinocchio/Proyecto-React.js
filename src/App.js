@@ -1,17 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar"
 import Footer from './components/Footer/Footer';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemCount from './components/ItemCount/ItemCount';
-import { useState } from 'react';
+import Pokemon from './components/Pokemon/Pokemon';
 
 function App() {
 
   return (
     <div>
     
-    <Navbar/>
+    <Pokemon/>
     <ItemCount stock={7} />
     <Footer/>
     </div>
